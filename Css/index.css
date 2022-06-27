@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  display: none;
+}
+
+.abouts {
+  color: #838383 !important;
+}
+
+.dark {
+  background-color: #F5F9FF;
+}
+
+.dark .about {
+  color: #838383 !important;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: 300;
+}
+
+.background {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  background: #1c6de8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #1c6de8), to(#0346ac));
+  background: linear-gradient(180deg, #1c6de8 35%, #0346ac 100%);
+}
+
+.background2 {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  background: url(../Images/BG.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+.title {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.about {
+  font-size: 22px;
+  color: #ffffff !important;
+  font-weight: 300;
+}
+
+.aboutQ {
+  font-size: 18px !important;
+  color: #ffffff !important;
+  font-weight: 300;
+}
+
+.Partners, .makePayment, #Points, #Download {
+  position: relative;
+}
+
+.part {
+  font-size: 60px;
+}
+
+.beansTop {
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.beans {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+}
+
+.makePayment .beansTop {
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.makePayment .beans {
+  position: absolute;
+  bottom: 0;
+  right: 35%;
+}
+
+.makePayment .beansTop {
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.makePayment .beans {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+}
+
+.makePayment .beans3 {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.cardContainer {
+  border-radius: 10px;
+}
+
+.cardContainer .cardTitle {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.beans4 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+#Download {
+  color: #ffffff;
+}
+
+#Download .downloadBg {
+  width: 90%;
+  height: 75%;
+  z-index: -10;
+  border-radius: 60px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 32%);
+          transform: translate(-50%, 32%);
+  background: #1c6de8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #1c6de8), to(#0346ac));
+  background: linear-gradient(180deg, #1c6de8 35%, #0346ac 100%);
+}
+
+#Download .downloadTitle {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#Download p {
+  font-size: 22px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=index.css.map */

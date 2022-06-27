@@ -1,0 +1,203 @@
+$main: #407BFF;
+$black:  #00000036 ;
+$textColor: #838383; 
+$Background: #F5F9FF;
+$white: #ffffff;
+
+$font: 'Montserrat', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    scroll-behavior: smooth;
+display: none;
+}
+
+.abouts{
+    color: $textColor !important;
+  }
+
+.dark{
+    background-color: $Background;
+  .about{
+    color: $textColor !important;
+  }
+}
+
+.navbar{
+    z-index: 1;
+
+    .nav-link{
+        color: $white !important;
+        font-weight: 300;
+    }
+}
+
+.background{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: -10;
+
+    background: rgb(28,109,232);
+background: linear-gradient(180deg, rgba(28,109,232,1) 35%, rgba(3,70,172,1) 100%);
+
+}
+
+.background2{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: -10;
+    background: url(../Images/BG.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.title{
+    font-size: 70px;
+    color: $white;
+    font-weight: 800;
+}
+.about{
+    font-size: 22px;
+    color: $white !important;
+    font-weight: 300;
+}
+
+.aboutQ{
+    font-size: 18px !important;
+    color: $white !important;
+    font-weight: 300;
+}
+
+.Partners , .makePayment , #Points, #Download{
+    position: relative;
+}
+
+.part{
+    font-size: 60px;
+}
+
+.beansTop{
+    position: absolute;
+    top: 0;
+    left: 25%;
+
+}
+
+.beans{
+    position: absolute;
+
+    bottom: 0;
+    right: 25%;
+}
+
+.makePayment{
+    .beansTop{
+        position: absolute;
+        top: 0;
+        left: 45%;
+    
+    }
+    
+    .beans{
+        position: absolute;
+    
+        bottom: 0;
+        right: 35%;
+    }
+
+    .beansTop{
+    position: absolute;
+    top: 0;
+    left: 25%;
+
+}
+
+.beans{
+    position: absolute;
+
+    bottom: 0;
+    right: 25%;
+}
+
+
+.beans3{
+    position: absolute;
+
+    bottom: 10%;
+    left: 5%;
+}
+
+
+    
+}
+
+.cardContainer{
+    border-radius: 10px;
+
+    .cardTitle{
+        font-size: 32px;
+        font-weight: 600;
+    }
+}
+
+
+.beans4{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+
+#Download{
+color: $white;
+
+.downloadBg{
+    width: 90%;
+    height: 75%;
+    z-index: -10;
+
+    border-radius: 60px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50% , 32%);
+    background: rgb(28,109,232);
+background: linear-gradient(180deg, rgba(28,109,232,1) 35%, rgba(3,70,172,1) 100%);
+}
+
+.downloadTitle{
+    font-size: 40px;
+    color: $white;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+}
