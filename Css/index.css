@@ -5,6 +5,7 @@
           box-sizing: border-box;
 }
 
+do
 body {
   width: 100vw;
   overflow-x: hidden;
@@ -174,5 +175,96 @@ body::-webkit-scrollbar {
 #Download p {
   font-size: 22px;
   font-weight: 300;
+}
+
+footer {
+  background: #1c6de8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #1c6de8), to(#0346ac));
+  background: linear-gradient(180deg, #1c6de8 35%, #0346ac 100%);
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+footer .copyRight {
+  font-size: 18px;
+}
+
+footer .copyRightMessage {
+  border-top: 2.5px solid #3168BC;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+footer .background2 {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  background: url(../Images/BG.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  footer .imgContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .heroText {
+    text-align: center;
+  }
+  .heroText h1 {
+    font-size: 40px !important;
+  }
+  .heroText p {
+    font-size: 16px !important;
+  }
+  .background {
+    height: 70%;
+  }
+  h1.part, .cardTitle {
+    font-size: 26px !important;
+  }
+  .downloadBg {
+    width: 90%;
+    height: 75%;
+    z-index: -10;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 5%) !important;
+            transform: translate(-50%, 5%) !important;
+    border-radius: 30px !important;
+  }
+  .downloadTitle {
+    font-size: 26px;
+  }
+  p {
+    font-size: 16px;
+  }
+  footer {
+    text-align: start !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */

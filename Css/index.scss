@@ -13,7 +13,7 @@ $font: 'Montserrat', sans-serif;
     box-sizing: border-box;
    
   
-}
+}do
 
 
 
@@ -201,3 +201,117 @@ p{
 }
 
 }
+
+footer{
+    background: rgb(28,109,232) ;
+    background: linear-gradient(180deg, rgba(28,109,232,1) 35%, rgba(3,70,172,1) 100%);
+ 
+    color: white;
+ 
+a{
+    text-decoration: none;
+    color: $white !important;
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.copyRight{
+    font-size: 18px;
+}
+
+.copyRightMessage{
+    border-top: 2.5px solid #3168BC;
+}
+
+}
+
+
+footer{
+    position: relative;
+    z-index: 1;
+    
+    .background2{
+        width: 100vw;
+        height: 100%;
+        position: absolute;
+        top:0;
+        z-index: -10;
+        background: url(../Images/BG.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    body{
+        text-align: center;
+    }
+   
+    h1{
+        font-size:40px !important ;
+    }
+ 
+footer{
+    .imgContainer{
+        justify-content: center;
+        text-align: center;
+    }
+
+ 
+}
+
+.heroText{
+    text-align: center;
+    h1{
+        font-size:40px !important ;
+    }
+
+    p{
+        font-size: 16px !important;
+    }
+}
+
+
+.background{
+    height: 70%;
+}
+
+h1.part , .cardTitle{
+    font-size: 26px !important;
+}
+
+.downloadBg{
+    width: 90%;
+    height: 75%;
+    z-index: -10;
+
+    top: 0%;
+    left: 50%;
+    transform: translate(-50% , 5%) !important;
+    border-radius: 30px !important;
+  
+}
+
+.downloadTitle{
+    font-size: 26px;
+}
+
+p{
+    font-size: 16px;
+
+}
+
+footer{
+    text-align: start !important;
+}
+
+  }
